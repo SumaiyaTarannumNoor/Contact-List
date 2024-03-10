@@ -26,6 +26,33 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background: #535bf2;
+}
+
+div{
+  background: #ffffff;
+}
+
+th{
+  margin: 20px;
+  border: 10px blue solid;
+  width: 200px;
+}
+
+td{
+  margin: 6px;
+  border: 6px blue solid;
+  background: aqua;
+  font-family: "Poor Richard";
+  font-size: 20px;
+  color: #1a1a1a;
+}
+
+button{
+  margin: 10px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -39,4 +66,43 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.field{
+  padding: 1rem;
+  background: #175cff;
+  align-items: center;
+}
+
+.container{
+  margin: 10px;
+  background: #175cff;
+}
+
+.label{
+  background: #175cff;
+  height: 20px;
+  width: 200px;
+  padding: 6px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.input{
+  background: #002d97;
+  height: 20px;
+  width: 200px;
+  padding: 6px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+button:hover{
+  background: #002d97;
+  color: #ffffff;
+}
+
+.input:hover{
+  background: #ffffff;
+  color: #002d97;
 }
